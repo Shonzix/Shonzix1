@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularz</title>
+<link rel="stylesheet" type="text/css" href="style/arkusz-form.css">
+</head>
+<body>
+
+<h2>Formularz</h2>
+<form action="mailto:maciej.zielinski@tm1.edu.pl" method="POST">
+<label for="fname">Imię:</label><br>
+<input type="text" id="fname" name="fname" value="Jan"><br>
+  <br>
+<label for="lname">Nazwisko:</label><br>
+<input type="text" id="lname" name="lname" value="Kowalski">
+  
+<br><br><br>
+
+<input type="radio" id="male" name="gender" value="male" checked>
+  <label for="male">Mężczyzna</label><br> 
+<input type="radio" id="female" name="gender" value="female">
+  <label for="female">Kobieta</label><br>
+<input type="radio" id="other" name="gender" value="other">
+  <label for="other">Inna</label>
+
+  <br><br>
+Ile masz lat? <br>
+
+<input type="radio" id="16" name="age" value="16">
+  <label for="16"><16</label><br> 
+<input type="radio" id="17" name="age" value="17">
+  <label for="17">17-24</label><br>
+<input type="radio" id="25" name="age" value="25">
+  <label for="25">25-35</label><br>
+<input type="radio" id="36" name="age" value="36">
+  <label for="36">36-60</label><br>
+<input type="radio" id="60" name="age" value="60">
+  <label for="60">>60</label><br>
+
+  <br><br>
+
+  Które z wymienionych napoi piłeś/piłaś?<br>
+
+<input type="checkbox" id="44" name="tried" value="44">
+  <label for="44">44</label><br>
+<input type="checkbox" id="doc" name="tried" value="doc">
+  <label for="doc">The Doctor</label><br>
+<input type="checkbox" id="xx" name="tried" value="xx"> 
+  <label for="xx">Mixxd</label><br>
+<input type="checkbox" id="red" name="tried" value="red">
+  <label for="red">Ultra Red</label><br>
+<input type="checkbox" id="ml" name="tried" value="ml">
+  <label for="ml">Mango Loco</label><br>
+<input type="checkbox" id="rpr" name="tried" value="rpr">
+  <label for="rpr">Ripper</label><br>
+<input type="checkbox" id="ultra" name="tried" value="ultra">
+  <label for="ultra">Ultra</label><br>
+
+  <br><br>Czy masz jakieś uwagi?<br>
+
+<label><textarea name="message" rows="12" cols="24">Napisz nam co o tym myślisz.</textarea></label><br><br>
+
+  <br><br><br>
+
+  <input type="reset" value="Wyczyść formularz">
+  <input type="submit" value="Wyślij formularz">
+  <br><br>
+</form>
+  <a href="index.html">Powrót</a>
+</body>
+</html>
